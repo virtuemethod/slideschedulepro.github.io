@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="bg_green_pattern" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 617" style="enable-background:new 0 0 1024 617;" xml:space="preserve">
+<style type="text/css">
+	.path_a{
+		clip-path:url(#path_mask);
+		fill:url(#grad_a);
+		}
+	.path_b{
+		opacity:0.2;
+		clip-path:url(#path_mask);
+		fill:url(#grad_b);
+		mix-blend-mode: screen;
+		}
+	.path_c{
+		opacity:0.2;
+		clip-path:url(#path_mask);
+		fill:url(#grad_c);
+		mix-blend-mode: screen;
+		}
+	.path_d{
+		opacity:0.2;
+		clip-path:url(#path_mask);
+		fill:url(#grad_d);
+		mix-blend-mode: screen;
+		}
+	.path_e{
+		opacity:0.1;
+		clip-path:url(#path_mask);
+		fill:url(#grad_e);
+		mix-blend-mode: screen;
+		}
+</style>
+<g>
+	<defs>
+		<rect id="rect_clip_mask" x="0.15" y="-0.37" width="1024" height="617"/>
+	</defs>
+	<clipPath id="path_mask">
+		<use xlink:href="#rect_clip_mask"  style="overflow:visible;"/>
+	</clipPath>
+	<linearGradient id="grad_a" gradientUnits="userSpaceOnUse" x1="101.8974" y1="-102.1211" x2="922.3974" y2="718.3789">
+		<stop  offset="0" style="stop-color:#1CB395;stop-opacity:0.8"/>
+		<stop  offset="1" style="stop-color:#1CB395"/>
+	</linearGradient>
+	<rect x="0.15" y="-0.37" class="path_a" width="1024" height="617"/>
+	<linearGradient id="grad_b" gradientUnits="userSpaceOnUse" x1="34.1474" y1="196.793" x2="1024.1473" y2="196.793">
+		<stop  offset="0" style="stop-color:#8CC63F;stop-opacity:0.1"/>
+		<stop  offset="1" style="stop-color:#1CB395"/>
+	</linearGradient>
+	<path class="path_b" d="M34.15-0.37c676,35,990,394.33,990,394.33V-0.37H34.15z"/>
+	<linearGradient id="grad_c" gradientUnits="userSpaceOnUse" x1="-50.3897" y1="626.3614" x2="168.837" y2="407.1347">
+		<stop  offset="0" style="stop-color:#8CC63F;stop-opacity:0.1"/>
+		<stop  offset="1" style="stop-color:#1CB395"/>
+	</linearGradient>
+	<path class="path_c" d="M0.15,238.45c25,167.5,169.39,334.41,263.7,378.18S0.15,676.9,0.15,676.9V238.45z"/>
+	<linearGradient id="grad_d" gradientUnits="userSpaceOnUse" x1="621.2021" y1="849.2695" x2="260.7807" y2="225.0014">
+		<stop  offset="0" style="stop-color:#8CC63F;stop-opacity:0.2"/>
+		<stop  offset="1" style="stop-color:#1CB395"/>
+	</linearGradient>
+	<path class="path_d" d="M917.15-0.37c-62.42,228.1-332,538.03-917,575.46s-371,41.54-371,41.54h1395v-617H917.15z"/>
+	<linearGradient id="grad_e" gradientUnits="userSpaceOnUse" x1="0.1474" y1="331.2341" x2="487.2112" y2="331.2341">
+		<stop  offset="0" style="stop-color:#8CC63F;stop-opacity:0.1"/>
+		<stop  offset="1" style="stop-color:#1CB395"/>
+	</linearGradient>
+	<path class="path_e" d="M417.15-0.37c126,129.97,63.71,513.03-42.65,617s-374.35,0-374.35,0v-617H417.15z"/>
+</g>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="bg_blue_pattern" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 845" style="enable-background:new 0 0 1024 845;" xml:space="preserve">
+<style type="text/css">
+	.path_a{
+		clip-path:url(#path_mask);
+		fill:url(#grad_a);
+		}	
+	.path_b{
+		opacity:0.1;
+		clip-path:url(#path_mask);
+		fill:url(#grad_b);
+		mix-blend-mode: screen;
+		}
+	.path_c{
+		opacity:0.2;
+		clip-path:url(#path_mask);
+		fill:url(#grad_c);
+		mix-blend-mode: screen;
+		}
+	.path_d{
+		opacity:0.2;
+		clip-path:url(#path_mask);
+		fill:url(#grad_d);
+		mix-blend-mode: screen;
+		}
+	.path_e{
+		opacity:0.1;
+		clip-path:url(#path_mask);
+		fill:url(#grad_e);
+		mix-blend-mode: screen;
+		}
+</style>
+<g>
+	<defs>
+		<rect id="rect_clip_mask" y="0" width="1024" height="845"/>
+	</defs>
+	<clipPath id="path_mask">
+		<use xlink:href="#rect_clip_mask"  style="overflow:visible;"/>
+	</clipPath>
+	<linearGradient id="grad_a" gradientUnits="userSpaceOnUse" x1="-1" y1="422.5" x2="1024" y2="422.5">
+		<stop  offset="0" style="stop-color:#446CFC"/>
+		<stop  offset="1" style="stop-color:#6C00FC"/>
+	</linearGradient>
+	<polygon class="path_a" points="-1,845 1024,845 1024,0 0,0 	"/>
+	<linearGradient id="grad_b" gradientUnits="userSpaceOnUse" x1="-0.4997" y1="422.725" x2="415" y2="422.725">
+		<stop  offset="0" style="stop-color:#446CFC"/>
+		<stop  offset="1" style="stop-color:#446CFC"/>
+	</linearGradient>
+	<path class="path_b" d="M415,0C100,125,91,584,287,845c-163,0-287.5,0.45-287.5,0.45L0,0H415z"/>
+	<linearGradient id="grad_c" gradientUnits="userSpaceOnUse" x1="-0.4997" y1="231.4568" x2="956" y2="231.4568">
+		<stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#6C00FC"/>
+	</linearGradient>
+	<path class="path_c" d="M708.5,190.45c99,329-709,268-709,268v-246L0,0h956C956,0,669.46,60.71,708.5,190.45z"/>
+	<linearGradient id="grad_d" gradientUnits="userSpaceOnUse" x1="-1" y1="111.4325" x2="1246.5002" y2="111.4325">
+		<stop  offset="0" style="stop-color:#446CFC"/>
+		<stop  offset="1" style="stop-color:#6C00FC"/>
+	</linearGradient>
+	<path class="path_d" d="M525.5,239.45c-423,39-526-126-526-126L-1,0l1247.5-22.55C1246.5-22.55,872.69,207.44,525.5,239.45z"/>
+	<linearGradient id="grad_e" gradientUnits="userSpaceOnUse" x1="-214.7925" y1="500.6643" x2="980.8515" y2="500.6643">
+		<stop  offset="0" style="stop-color:#446CFC;stop-opacity:0.5"/>
+		<stop  offset="1" style="stop-color:#6C00FC"/>
+	</linearGradient>
+	<path class="path_e" d="M-211.5,577.45c-44-621,361.19-157.7,723-153c385,5,490.52,151.83,466,235
+		C929.75,821.41-200.04,739.26-211.5,577.45z"/>
+</g>
+</svg>
