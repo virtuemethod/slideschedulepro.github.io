@@ -102,14 +102,29 @@
             a.button:active, a.patreon:active, a.copy:active{
                 transform: scale(0.95);
             }
+            a.copy::after{
+                content: 'copy';
+                background-color: var(--clr-dark-gray);
+                color: var(--clr-light-gray);
+                padding: 15px;
+                margin: -15px -20px -15px 20px;
+            }
+            a.copy.copied{
+                border-color: var(--clr-yellow);
+            }
+            a.copy.copied::after{
+                content: 'copied!';
+                background-color: var(--clr-yellow);
+                color: var(--clr-dark-gray);
+            }
             p.note{
                 font-size: 8px;
                 font-weight: 700;
             }
             article{
                 width: 100vw;
-                max-width: 100vw;
-                min-width: 100vw;
+                max-width: 100%;
+                min-width: 100%;
                 min-height: 100vh;
                 display: flex;
                 flex-direction: column;
